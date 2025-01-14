@@ -5,7 +5,7 @@ const app=express()
 
 // Configuración del middleware de sessiones 
 app.use(session({
-    secret: 'uXpmk3su09HjK01',
+    secret: 'Practica03 JBB#Jenny-SessionesPersistentes',
     resave:'false',
     saveUninitialized:true,
     Cookie: {maxAge: 24*60*60*1000}//1 dia   
